@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		h3{
+			width: 960px;
+			height: 100px;
+			text-align: center;
+			background: #ccc;
+			line-height: 100px;
+			margin: 30px auto;
+		}
+		#img{
+			width: 960px;
+			height: 300px;
+			margin: 0 auto;
+		}
+		#img img{
+			width: 960px;
+			height: 300px;
+		}
+
+		#content{
+			width: 960px;
+			height: 200px;
+			margin: 0 auto;
+			
+
+		}
+		#left{
+			width: 630px;
+			height: 200px;
+			background: green;
+			float: left;
+			display: table;
+			margin-right: 30px;
+
+
+		}
+		#right{
+			width: 300px;
+			height: 200px;
+			float: right;
+			background: yellow;
+			display: table;
+
+		}
+		#content p{
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+		footer{
+			clear: both;
+		}
+		@media screen and (max-width: 960px){
+			h3{
+				width: 100%;
+			}
+			#content{
+				width: 100%;
+			}
+			#left{
+				width: 63%;
+				margin-right: 7%;
+			}
+			#right{
+				width: 30%;
+			}
+			#img{
+				width: 100%;
+			}
+			#img img{
+				width: 100%;
+			}
+		@media screen and (max-width: 480px){
+			h3{
+				width: 100%;
+			}
+			#img{
+				width: 100%;
+			}
+			#img img{
+				width: 100%;
+			}
+			#content{
+				width: 100%;
+			}
+			#left,#right{
+				width: 100%;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h3>首页</h3>
+	</header>
+	<nav>
+		<h3>导航</h3>
+	</nav>
+	<div id="img">
+		<img src="1.jpg">
+	</div>
+	<div id="content">
+		<div id="left"> <p>mzdy cdsw yckh srbz
+		xyg xnj xnj hsd kyz dbd rkj szbd bgx qsz brk lwys gjadr azsny ybhd </p></div>
+		<div id="right"> <p>wszd yfq lyh dyh nhb hzmgs jxqc jygn
+		hdun hhh xhnh byys hhcs lldb qdsh dyq </p></div>	
+	</div>
+	<footer>
+	<h3>页脚</h3>
+	</footer>
+</body>
+</html>
